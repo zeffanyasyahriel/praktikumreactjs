@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Home from './Component/Fungsional/Home';
 import Beranda from './Component/Class/Beranda';
+// import Beranda from './Component/Class/Beranda';
 // import './App.css';
 
 function App() {
@@ -12,5 +13,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
