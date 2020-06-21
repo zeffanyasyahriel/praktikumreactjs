@@ -29,7 +29,7 @@ const NavbarComp = (props) => {
                         <NavLink href="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/about">about</NavLink>
+                        <NavLink href="/about">About</NavLink>
                     </NavItem>
 
                 </Nav>
@@ -39,4 +39,5 @@ const NavbarComp = (props) => {
         </div >
     )
 }
+
 export default NavbarComp;

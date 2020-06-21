@@ -7,7 +7,7 @@ import NavbarComp from './Component/Fungsional/NavbarComp';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomePage from './Component/Fungsional/HomePage';
 import AboutComp from './Component/Fungsional/AboutComp';
-
+import DetailComp from './Component/Fungsional/DetailComp';
 // import Beranda from './Component/Class/Beranda';
 // import './App.css';
 
@@ -18,6 +18,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutComp} />
+        <Route exact path="/detail/:id" component={DetailComp} />
       </Switch>
     </BrowserRouter>
 
